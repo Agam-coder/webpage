@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Agam fitness</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Sansita+Swashed:wght@800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Sansita+Swashed:wght@800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap" rel="stylesheet">
+<link rel="style.css" href="css/style.css">
+<style>
+  /* css reset */
+  body{
+    margin: 0px;
+    padding: 0px;
+    background:url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQyrgwabOwWltQU1S8Ckdw4Z8pOTc8XEynMKw&usqp=CAU') no-repeat center center fixed;
+    -webkit-background-size:cover;
+    -moz-backgroud-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+  }
+  .left{
+    font-family: 'Anton', sans-serif;
+    font-size: 10px;
+    position:absolute;
+    left: 12px;
+    top: 20px;
+    /* border: 2px solid red; */
+    display: inline-block;
+    color: #FFFFFF;
+  }
+  .mid{
+    display: block;
+    width: 53%;
+    margin: 20px auto;
+    /* border: 2px solid black; */
+  }
+  .right{
+    position: absolute;
+    right: 32px;
+    top: 20px;
+    /* border: 2px solid yellow; */
+    display: inline-block;
+  }
+  .navbar{
+   display: inline-block;
+   font-size: 6px;
+  }
+  .navbar li{
+    display: inline-block;
+  }
+  .navbar li a{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 8px;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 14px 10px;
+  }
+  .btu{
+    font-family: 'Balsamiq Sans', cursive;
+    border: 2px solid black;
+    border-radius:  6px; 
+    font-size: 5px;
+    margin: 0px 0px;
+    padding: 2px 4px;
+  }
+  .btu:hover{
+    cursor: pointer;
+  }
+  .navbar li a:hover{
+  text-decoration: underline;  
+  color: #9A9A9A;
+  }
+  .input {
+    color: black;
+    border: 2px solid black;
+    border-radius: 4px;
+    padding-top: 10px;
+    display: block;
+    width: 200px;
+    margin: 5px auto;
+    background-color: transparent
+    ;
+  }
+  .left img {
+    width: 45px;
+    height: 35px;
+  }
+  .cantaner{
+    /* border: 2px solid green; */
+  }
+  .cantaner h1{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Sansita Swashed', cursive;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .input:hover{
+    border: 2px solid #868686;
+    background-color: #C0C0C0;
+  }
+  .ibtu{
+    display: block;
+    width: 30%;
+    margin: 15px auto;
+    border: 2px solid black;
+    border-radius: 5px;
+  }
+</style>
+
+<body>
+ <head class="header">
+  <!-- left box for logo <-->
+  <div class="left">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTO3FoH1Y_wxj6Fut1aghoZqsuJTxGwSddNhoXf4ETv44gCPLWDS09Phqgu&s=10">
+    <div class="IBT">Agam fitness</div>
+  </div>
+  <!-- mid box for navbar -->
+  <div class="mid">
+    
+    <ul class="navbar">
+      <li><a href="" class="active">Home</a></li>
+      <li><a href="">About Us</a></li>
+      <li><a href="">Fitness Calculator</a></li>
+      <li><a href="">Contact US</a></li>
+    </ul>
+    
+  </div> 
+  <!-- right box for button -->
+  <div class="right">
+   <button class="btu">Help Me</button>
+   <button class="btu">Email Us</button> 
+  </div>
+</head> 
+<div class="cantaner">
+  <h1>Join The Best Gym In Agar</h1>
+  <form action="it.php">
+      <input class="input" id="input1"type="text" placeholder="Enter Your Name">
+      <input class="input" id="input2"type="number" placeholder="Enter Your Age">
+      <input class="input"id="input3"type="Email" placeholder="Enter Your Email">
+      <input class="input"id="input4"type="text" placeholder="Enter Your Area">
+      <button class="ibtu">Done</button>
+    </div>
+  </form>
+</div>
+</body> 
+
+</html>
