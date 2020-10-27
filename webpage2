@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>before and after pseudo</title>
+</head>
+ <style>
+ body{
+   background-color: black;
+   color: white;
+     
+   margin: 0px;
+   padding: 0px;
+   
+ }
+ section{
+   display: flex;
+   flex-direction: column;
+   align-items: center; 
+
+ }
+ .navgaingbar{
+   display: flex;
+ }
+ li{
+   list-style: none;
+   padding: 19px 30px;
+}
+ section::before{
+
+  
+}
+.right{
+  position: absolute;
+  right: 34px;
+  top: 30px;
+
+}
+header::before{
+  content: "" ;
+  background:url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQfn6QbNayNUL58sz74zbQCX9Mba24rOmKtSQ&usqp=CAU') no-repeat center center ;
+  background-size: cover;
+  position:fixed;
+  top: 0px;
+  left: 0px;
+  width:100%;
+  height:100%;
+z-index: -1;
+opacity: 0.3;
+}
+.btu{
+  border: 2px solid black;
+  border-radius: 9px;
+  padding: 6px 7px;
+ margin: 5px 6px;
+}
+h1{
+  font-size: 44px;
+}
+
+ </style>
+<body>
+<header>
+  <nav class="navbar">
+    <ul class="navgaingbar">
+      <li class="itemes">Home </li>
+      <li class="itmes">About</li>
+      <li class="itemes">support</li>
+      <li class="itmes">F.A.Q<li>
+    </ul>
+  </nav>
+  <div class="right">
+    <button class="btu">Login</button>
+    <button class="btu">Sing Up</button>
+  </div>
+  <h1 align="center">Wellcome To Te Coding World</h1>
+  <p>Belarusian, Bengali, Bosnian, Breton, Bulgarian, Burmese, Catalan, Cebuano, Corsican, Croatian, Czech, Danish, Dutch, Dutch (België), English (UK), English (US), English (upside down), Esperanto, Estonian, Faroese, Filipino, Finnish, French (Canada) <br> <br> <br>French (France), Frisian, Fula, Galician, Georgian, German, Greek, Guarani, Gujarati, Haitian Creole, Hausa, Hebrew, Hindi, Hungarian, Icelandic, Indonesian, Irish, Italian, Japanese, Japanese (Kansai)<br> <br> <br>Javanese, Kannada, Kazakh, Khmer, Kinyarwanda, Korean, Kurdish (Kurmanji), Kyrgyz, Lao, Latvian, Lithuanian, Macedonian, Malagasy, Malay, Malayalam, Maltese, Marathi, Mongolian, Nepali, Norwegian (bokmal), Norwegian (nynorsk), Oriya, Pashto, Persian, Polish, Portuguese (Brazil), Portuguese (Portugal), Punjabi, Romanian, Russian, Sardinian, Serbian, Shona, Silesian, Simplified Chinese (China), Sinhala, Slovak, Slovenian, Somali, Sorani Kurdish, Spanish, Spanish (Spain), Swahili, Swedish, Syriac, Tajik, Tamazight, Tamil, Tatar, Telugu, Thai, Traditional Chinese (Hong Kong), Traditional Chinese (Taiwan), Turkish, Ukrainian, Urdu, Uzbek, Vietnamese, Welsh and Zaza
+    </p>
+  </section>
+</header>
+</body>
+
+</html>
